@@ -57,7 +57,8 @@ def turn_count(board)
 end
 
 def current_player(board)
-
+  if turn_count(board).odd? && turn_count(board)
+  end
 end
 
 def won?(board)
