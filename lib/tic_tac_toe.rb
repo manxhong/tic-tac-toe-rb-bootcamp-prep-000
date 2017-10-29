@@ -71,6 +71,9 @@ def won?(board)
     third_index = combo_array[2]
 
     arr = [board[first_index], board[second_index], board[third_index]]
+    all_x = arr.all? do |value|
+      value == "X"
+    end
   end
 end
 
