@@ -79,11 +79,10 @@ def won?(board)
     end
 
     if all_x || all_o
-      true
-    else
-      false
+      return true
     end
   end
+  return false
 end
 
 def full?(board)
