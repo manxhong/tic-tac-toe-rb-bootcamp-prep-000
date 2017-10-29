@@ -69,6 +69,8 @@ def won?(board)
     first_index = combo_array[0]
     second_index = combo_array[1]
     third_index = combo_array[2]
+
+    arr = [board[first_index], board[second_index], board[third_index]]
   end
 end
 
