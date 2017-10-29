@@ -66,6 +66,10 @@ end
 
 def won?(board)
   WIN_COMBINATIONS.each do |combo_array|
+    first_index = combo_array[0]
+    second_index = combo_array[1]
+    third_index = combo_array[2]
+  end
 end
 
 def full?(board)
