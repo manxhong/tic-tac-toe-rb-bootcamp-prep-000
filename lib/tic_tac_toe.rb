@@ -47,7 +47,11 @@ def turn(board)
 end
 
 def turn_count(board)
-
+  count = 0
+  board.each do |value|
+    value !=" "
+    
+  end
 end
 
 def current_player(board)
