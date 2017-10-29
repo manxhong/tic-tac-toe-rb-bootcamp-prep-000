@@ -52,7 +52,7 @@ def turn_count(board)
     value !=" "
     count+=1
   end
-  return count
+  count
 end
 
 def current_player(board)
