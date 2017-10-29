@@ -35,7 +35,7 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-
+  
 end
 
 def turn_count(board)
