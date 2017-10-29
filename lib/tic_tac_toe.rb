@@ -23,7 +23,9 @@ def input_to_index(string)
 end
 
 def move(array, index, value)
-
+  if valid_move?(array, index)
+    
+  end
 end
 
 def position_taken?(board, index)
