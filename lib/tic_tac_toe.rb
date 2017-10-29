@@ -39,7 +39,7 @@ def turn(board)
   input = gets.strip
   num = input_to_index(input)
   if valid_move?(board, num)
-    move(board, num, "X")
+    move(board, num, current_player(board))
     display_board(board)
   else
     turn(board)
