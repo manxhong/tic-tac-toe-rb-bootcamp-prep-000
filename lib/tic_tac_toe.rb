@@ -122,5 +122,9 @@ def winner(board)
     if all_x
       return "X"
     end
+
+    if all_o
+      return "O"
+    end
   end
 end
