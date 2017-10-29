@@ -106,5 +106,17 @@ def over?(board)
 end
 
 def winner(board)
+  WIN_COMBINATIONS.each do |combo_array|
+    first_index = combo_array[0]
+    second_index = combo_array[1]
+    third_index = combo_array[2]
 
+    arr = [board[first_index], board[second_index], board[third_index]]
+    all_x = arr.all? do |value|
+      value == "X"
+    end
+    all_o = arr.all? do |value|
+      value == "O"
+    end
+  end
 end
