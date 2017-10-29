@@ -27,9 +27,13 @@ def move(array, index, value)
 end
 
 def position_taken?(board, index)
-  
+
 end
 
 def valid_move?(board, index)
-  
+
+end
+
+def turn(board)
+
 end
